@@ -1,5 +1,5 @@
 {
-  "name": "@vabklb/usefetch",
+  "name": "@vab-8350/usefetch",
   "version": "1.0.0",
   "description": "this is a module that simplifies the http query thought for the front",
   "main": "./dist/",
