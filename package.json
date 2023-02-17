@@ -5,7 +5,7 @@
   "main": "./dist/src/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node ./dist/src/"
+    "dev": "node ./dist/"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
     "url": "https://github.com/VAB-8350/useFetch/issues"
   },
   "homepage": "https://github.com/VAB-8350/useFetch#readme",
+  "bin": {
+    "useFetch": "./dist/"
+  },
   "devDependencies": {
     "typescript": "^4.9.5"
   },
