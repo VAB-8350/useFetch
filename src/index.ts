@@ -29,7 +29,7 @@ export default function useFetch (instanceOptions: AxiosRequestConfig) {
 
     } catch (error: any) {
 
-      return formatResponse({error: error.response.statusText}, error.response.status)
+      return formatResponse({error: error.response.message}, error.response.status)
 
     }
 
@@ -45,7 +45,7 @@ export default function useFetch (instanceOptions: AxiosRequestConfig) {
 
     } catch (error: any) {
 
-      return formatResponse({error: error.response.statusText}, error.response.status)
+      return formatResponse({error: error.response.message}, error.response.status)
 
     }
 
@@ -61,7 +61,7 @@ export default function useFetch (instanceOptions: AxiosRequestConfig) {
 
     } catch (error: any) {
 
-      return formatResponse({error: error.response.statusText}, error.response.status)
+      return formatResponse({error: error.response.message}, error.response.status)
 
     }
 
@@ -77,7 +77,7 @@ export default function useFetch (instanceOptions: AxiosRequestConfig) {
 
     } catch (error: any) {
 
-      return formatResponse({error: error.response.statusText}, error.response.status)
+      return formatResponse({error: error.response.message}, error.response.status)
 
     }
 

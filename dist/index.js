@@ -32,7 +32,7 @@ function useFetch(instanceOptions) {
                 return formatResponse(res, status);
             }
             catch (error) {
-                return formatResponse({ error: error.response.statusText }, error.response.status);
+                return formatResponse({ error: error.response.message }, error.response.status);
             }
         });
     }
@@ -43,7 +43,7 @@ function useFetch(instanceOptions) {
                 return formatResponse(res, status);
             }
             catch (error) {
-                return formatResponse({ error: error.response.statusText }, error.response.status);
+                return formatResponse({ error: error.response.message }, error.response.status);
             }
         });
     }
@@ -54,7 +54,7 @@ function useFetch(instanceOptions) {
                 return formatResponse(res, status);
             }
             catch (error) {
-                return formatResponse({ error: error.response.statusText }, error.response.status);
+                return formatResponse({ error: error.response.message }, error.response.status);
             }
         });
     }
@@ -65,7 +65,7 @@ function useFetch(instanceOptions) {
                 return formatResponse(res, status);
             }
             catch (error) {
-                return formatResponse({ error: error.response.statusText }, error.response.status);
+                return formatResponse({ error: error.response.message }, error.response.status);
             }
         });
     }
