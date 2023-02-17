@@ -1,0 +1,27 @@
+{
+  "name": "usefetch",
+  "version": "1.0.0",
+  "description": "this is a module that simplifies the http query thought for the front",
+  "main": "./dist/src/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./dist/src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VAB-8350/useFetch.git"
+  },
+  "keywords": [],
+  "author": "vab-8350 <victor.barilin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VAB-8350/useFetch/issues"
+  },
+  "homepage": "https://github.com/VAB-8350/useFetch#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "axios": "^1.3.3"
+  }
+}
