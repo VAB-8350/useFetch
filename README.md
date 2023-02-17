@@ -10,7 +10,7 @@ This project arose with the idea of ​​simplifying the calls to an API, I use
 I recommend using the initial configuration from an external `config.js` file so that we don't repeat this configuration every time you want to use it.
 
 config.js
-```
+```javascript
 const config = {
   headerOptions: {
     baseURL: 'https://jsonplaceholder.typicode.com',
@@ -26,7 +26,7 @@ export default config
 Then, in the component that we need to query, we can use it this way...
 
 exampleComponent.jsx
-```
+```javascript
 import { useEffect } from 'react'
 import useFetch from '@vab-8350/usefetch'
 
@@ -74,6 +74,6 @@ If you need to better customize the headers you can consult the library [axios](
 I hope this library was to your liking, and in the event of any improvement that you think could be incorporated, do not hesitate to let me know.
 
 
-- [Linkedin](https://www.linkedin.com/in/and- res-barilin-1b8a0a1b4/)
+- [Linkedin](https://www.linkedin.com/in/andres-barilin-1b8a0a1b4/)
 - [GitHub](https://github.com/VAB-8350)
 - [My portfolio](https://www.victorbarilin.com)
