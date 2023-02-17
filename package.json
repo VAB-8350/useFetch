@@ -1,8 +1,8 @@
 {
-  "name": "usefetch",
+  "name": "@vabklb/usefetch",
   "version": "1.0.0",
   "description": "this is a module that simplifies the http query thought for the front",
-  "main": "./dist/src/",
+  "main": "./dist/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node ./dist/"
