@@ -1,6 +1,6 @@
 {
   "name": "@vab-8350/usefetch",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "this is a module that simplifies the http query thought for the front",
   "main": "./dist/",
   "scripts": {
