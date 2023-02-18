@@ -2,6 +2,11 @@
 ### Description
 This project arose with the idea of ​​simplifying the calls to an API, I use the [axios](https://www.npmjs.com/package/axios) library and it is mainly intended to be used in React, since it is used as a hook, avoiding having too many getExample.service.js or similar files.
 
+------------
+
+### Install
+
+`npm i @vab-8350/usefetch`
 
 ------------
 
